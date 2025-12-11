@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ComplyTechLaws - AI Governance & Compliance Solutions</title>
+  <meta name="description" content="ComplyTechLaws provides AI governance, legal compliance, and tech risk mitigation solutions for businesses worldwide.">
+  <meta name="keywords" content="AI Governance, Compliance, Tech Risk, Legal Compliance, Global Regulations, Compliance Solutions">
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <style>
+    :root {
+      --primary-color: #3d6aff;
+      --bg-color: #f8f9fb;
+      --text-color: #222;
+      --header-bg: #0a0f2c;
+      --header-text: white;
+    }
+
+    [data-theme='dark'] {
+      --bg-color: #121212;
+      --text-color: #f0f0f0;
+      --header-bg: #1c1c2e;
+      --header-text: #f0f0f0;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--bg-color);
+      color: var(--text-color);
+      transition: background 0.3s, color 0.3s;
+    }
+
+    header {
+      background: var(--header-bg);
+      color: var(--header-text);
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: var(--header-text);
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .theme-toggle {
+      cursor: pointer;
+      margin-left: 20px;
+      padding: 5px 10px;
+      border-radius: 5px;
+      background: var(--primary-color);
+      color: white;
+      font-size: 14px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: linear-gradient(135deg, #0a0f2c, #1c2a6d);
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 650px;
+      margin: 0 auto;
+      opacity: 0.9;
+    }
+
+    .btn-primary {
+      background: var(--primary-color);
+      padding: 14px 28px;
+      border-radius: 8px;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      display: inline-block;
+      margin-top: 25px;
+    }
+
+    .section {
+      padding: 70px 40px;
+      text-align: center;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .service-box {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      text-align: left;
+      transition: transform 0.2s;
+    }
+
+    .service-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .service-box h3 {
+      margin-top: 0;
+      color: #0a0f2c;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      margin: 0 auto;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 12px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      width: 100%;
+    }
+
+    button {
+      padding: 14px;
+      border: none;
+      background: var(--primary-color);
+      color: white;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    footer {
+      background: var(--header-bg);
+      color: var(--header-text);
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    a:hover {
+      opacity: 0.85;
+    }
+  </style>
+</head>
+<body data-theme="light">
+
+<header>
+  <h1>ComplyTechLaws</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <span class="theme-toggle" onclick="toggleTheme()">Dark Mode</span>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>AI Governance, Legal Compliance & Tech Risk Mitigation</h2>
+  <p>Helping businesses navigate global regulations with AI-powered compliance frameworks, audits, policies, and governance solutions.</p>
+  <a href="contact.html" class="btn-primary">Get Consultation</a>
+</section>
+
+<section id="services" class="section">
+  <h2>Our Core Services</h2>
+  <div class="services">
+    <div class="service-box">
+      <h3>AI Governance Frameworks</h3>
+      <p>Developing responsible AI policies, governance structures, and ethical deployment guidelines aligned with global standards.</p>
+    </div>
+
+    <div class="service-box">
+      <h3>Regulatory Compliance</h3>
+      <p>Compliance for GDPR, NIST, ISO, AI Act, Privacy Laws, and Tech Regulations to keep your business protected.</p>
+    </div>
+
+    <div class="service-box">
+      <h3>Risk Assessment & Audits</h3>
+      <p>End-to-end risk analysis, data audits, and controls implementation to reduce operational and legal risks.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <h2>About ComplyTechLaws</h2>
+  <p>We combine legal expertise, technology insight, and AI governance intelligence to help businesses stay compliant in a rapidly evolving tech landscape. Our approach is modern, proactive, and globally aligned.</p>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact Us</h2>
+  <form action="https://formspree.io/f/mayvlzld" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p>Email us directly at: <strong>contact@complytechlaws.com</strong></p>
+</section>
+
+<footer>
+  <p>© 2025 ComplyTechLaws. All rights reserved.</p>
+</footer>
+
+<script>
+  function toggleTheme() {
+    const body = document.body;
+    if (body.getAttribute('data-theme') === 'light') {
+      body.setAttribute('data-theme', 'dark');
+      document.querySelector('.theme-toggle').textContent = 'Light Mode';
+    } else {
+      body.setAttribute('data-theme', 'light');
+      document.querySelector('.theme-toggle').textContent = 'Dark Mode';
+    }
+  }
+</script>
+
+</body>
+</html>
